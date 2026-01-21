@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BuySmartly — Smart Products. Real Value.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+        .buy-btn {
+            display: block;
+            margin-top: 10px;
+            padding: 12px;
+            background: #0a84ff;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .buy-btn:hover {
+            background: #006be6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BuySmartly</h1>
+    <p>Top products people actually buy — curated for you</p>
+</header>
+
+<div class="container">
+    <h2>🔥 Best Sellers</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Wireless Earbuds">
+            <h3>Wireless Bluetooth Earbuds</h3>
+            <p>High demand product. Everyone buys these.</p>
+            <a class="buy-btn" href="YOUR_AFFILIATE_LINK_HERE" target="_blank">
+                Buy Now
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Smart Watch">
+            <h3>Smart Fitness Watch</h3>
+            <p>Tracks steps, sleep, heart rate. Mass market.</p>
+            <a class="buy-btn" href="YOUR_AFFILIATE_LINK_HERE" target="_blank">
+                Buy Now
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Portable Blender">
+            <h3>Portable USB Blender</h3>
+            <p>Trending product on TikTok & Instagram.</p>
+            <a class="buy-btn" href="YOUR_AFFILIATE_LINK_HERE" target="_blank">
+                Buy Now
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="LED Lights">
+            <h3>LED Room Lights</h3>
+            <p>Cheap, viral, impulse purchase.</p>
+            <a class="buy-btn" href="YOUR_AFFILIATE_LINK_HERE" target="_blank">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 BuySmartly. Affiliate links may earn commission.
+</footer>
+
+</body>
+</html>
